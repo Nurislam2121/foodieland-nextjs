@@ -1,0 +1,150 @@
+[
+  {
+    "id": "1",
+    "title": "Spicy delicious chicken wings",
+    "badge": "Hot Recipes",
+    "description": "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquat enim ad minim",
+    "image": "https://images.unsplash.com/photo-1527477396000-e27163b481c2?q=80&w=1000&auto=format&fit=crop",
+    "category": "Chicken",
+    "prepTime": "15 Minutes",
+    "cookTime": "15 Minutes",
+    "totalTime": "30 Minutes",
+    "author": {
+      "name": "John Smith",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+      "date": "15 March 2022"
+    },
+    "isFeatured": true,
+    "isFavorite": false
+  },
+  {
+    "id": "2",
+    "title": "Health Japanese Fried Rice",
+    "badge": "Hot Recipes",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?q=80&w=1000&auto=format&fit=crop",
+    "category": "Chicken",
+    "prepTime": "15 Minutes",
+    "cookTime": "15 Minutes",
+    "totalTime": "30 Minutes",
+    "author": {
+      "name": "John Smith",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+      "date": "15 March 2022"
+    },
+    "nutrition": {
+      "calories": "219.9 kcal",
+      "totalFat": "10.7 g",
+      "protein": "7.9 g",
+      "carbohydrate": "22.3 g",
+      "cholesterol": "37.4 mg"
+    },
+    "ingredientGroups": [
+      {
+        "title": "For main dish",
+        "items": [
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet"
+        ]
+      },
+      {
+        "title": "For the sauce",
+        "items": [
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet"
+        ]
+      }
+    ],
+    "isFeatured": false,
+    "isFavorite": false
+  },
+  {
+    "id": "3",
+    "title": "Big and Juicy Wagyu Beef Cheeseburger",
+    "description": "Delicious Wagyu beef cheeseburger served with fresh lettuce and sauce.",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=800&auto=format&fit=crop",
+    "category": "Snack",
+    "prepTime": "15 Minutes",
+    "cookTime": "15 Minutes",
+    "totalTime": "30 Minutes",
+    "author": {
+      "name": "John Smith",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+      "date": "15 March 2022"
+    },
+    "isFeatured": false,
+    "isFavorite": true
+  },
+  {
+    "id": "4",
+    "title": "Fresh Lime Roasted Salmon with Ginger Sauce",
+    "description": "Fresh roasted salmon topped with lime zest and ginger dressing.",
+    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?q=80&w=800&auto=format&fit=crop",
+    "category": "Fish",
+    "prepTime": "15 Minutes",
+    "cookTime": "15 Minutes",
+    "totalTime": "30 Minutes",
+    "author": {
+      "name": "John Smith",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+      "date": "15 March 2022"
+    },
+    "isFeatured": false,
+    "isFavorite": false
+  },
+  {
+    "id": "5",
+    "title": "Strawberry Oatmeal Pancake with Honey Syrup",
+    "description": "Healthy oatmeal pancakes with organic strawberries and sweet honey.",
+    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=800&auto=format&fit=crop",
+    "category": "Breakfast",
+    "prepTime": "15 Minutes",
+    "cookTime": "15 Minutes",
+    "totalTime": "30 Minutes",
+    "author": {
+      "name": "John Smith",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+      "date": "15 March 2022"
+    },
+    "isFeatured": false,
+    "isFavorite": false
+  },
+  {
+    "id": "6",
+    "title": "Fresh and Healthy Mixed Mayonnaise Salad",
+    "description": "Crisp mixed greens with light mayonnaise dressing and chickpeas.",
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800&auto=format&fit=crop",
+    "category": "Healthy",
+    "prepTime": "15 Minutes",
+    "cookTime": "15 Minutes",
+    "totalTime": "30 Minutes",
+    "author": {
+      "name": "John Smith",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+      "date": "15 March 2022"
+    },
+    "isFeatured": false,
+    "isFavorite": true
+  },
+  {
+    "id": "7",
+    "title": "Chicken Meatballs with Cream Cheese",
+    "description": "Tender chicken meatballs paired with creamy cheese dip and herbs.",
+    "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?q=80&w=800&auto=format&fit=crop",
+    "category": "Meat",
+    "prepTime": "15 Minutes",
+    "cookTime": "15 Minutes",
+    "totalTime": "30 Minutes",
+    "author": {
+      "name": "Andreas Paula",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+      "date": "15 March 2022"
+    },
+    "isFeatured": false,
+    "isFavorite": false
+  }
+]
