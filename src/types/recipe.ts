@@ -14,7 +14,13 @@ export interface NutritionInfo {
 
 export interface IngredientGroup {
     title: string;
-    group: string[]
+    items: string[]
+}
+
+export interface InstructionStep {
+  step?: number;
+  title: string;
+  text: string;
 }
 
 export interface Recipe {
@@ -31,6 +37,7 @@ export interface Recipe {
     author: Author;
     nutrition?: NutritionInfo
     ingredientGroups: IngredientGroup[];
+    instructions?: InstructionStep[];
     isFeatured?: boolean
     isFavorite?: boolean
 }

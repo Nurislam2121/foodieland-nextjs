@@ -3,7 +3,7 @@
     "id": "1",
     "title": "Spicy delicious chicken wings",
     "badge": "Hot Recipes",
-    "description": "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquat enim ad minim",
+    "description": "Crispy baked chicken wings tossed in a spicy, flavorful chili sauce with garlic and herbs. Perfect appetizer for gatherings or game night.",
     "image": "https://images.unsplash.com/photo-1527477396000-e27163b481c2?q=80&w=1000&auto=format&fit=crop",
     "category": "Chicken",
     "prepTime": "15 Minutes",
@@ -14,6 +14,49 @@
       "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
       "date": "15 March 2022"
     },
+    "nutrition": {
+      "calories": "380.5 kcal",
+      "totalFat": "24.2 g",
+      "protein": "28.4 g",
+      "carbohydrate": "8.1 g",
+      "cholesterol": "85.0 mg"
+    },
+    "ingredientGroups": [
+      {
+        "title": "For main dish",
+        "items": [
+          "1 kg chicken wings, split at joints",
+          "1 tbsp baking powder",
+          "1 tsp garlic powder",
+          "1/2 tsp salt and black pepper"
+        ]
+      },
+      {
+        "title": "For the sauce",
+        "items": [
+          "1/3 cup hot pepper sauce",
+          "2 tbsp unsalted butter, melted",
+          "1 tbsp honey"
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Prepare wings",
+        "text": "Pat chicken wings dry with paper towels. Toss with baking powder, garlic powder, salt, and pepper."
+      },
+      {
+        "step": 2,
+        "title": "Bake or fry",
+        "text": "Bake in a preheated oven at 200°C (400°F) for 25-30 minutes until crispy and golden brown."
+      },
+      {
+        "step": 3,
+        "title": "Toss in sauce",
+        "text": "Whisk hot sauce, melted butter, and honey together. Coat cooked wings in sauce and serve immediately."
+      }
+    ],
     "isFeatured": true,
     "isFavorite": false
   },
@@ -21,7 +64,7 @@
     "id": "2",
     "title": "Health Japanese Fried Rice",
     "badge": "Hot Recipes",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "description": "Authentic Japanese style fried rice packed with fresh vegetables, egg, and light soy sauce. A quick, delicious, and healthy weeknight meal.",
     "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?q=80&w=1000&auto=format&fit=crop",
     "category": "Chicken",
     "prepTime": "15 Minutes",
@@ -43,20 +86,37 @@
       {
         "title": "For main dish",
         "items": [
-          "Lorem ipsum dolor sit amet",
-          "Lorem ipsum dolor sit amet",
-          "Lorem ipsum dolor sit amet",
-          "Lorem ipsum dolor sit amet",
-          "Lorem ipsum dolor sit amet"
+          "2 cups cooked jasmine rice (chilled)",
+          "150g diced chicken breast",
+          "2 large eggs, beaten",
+          "1/2 cup mixed diced carrots and peas",
+          "2 green onions, chopped"
         ]
       },
       {
         "title": "For the sauce",
         "items": [
-          "Lorem ipsum dolor sit amet",
-          "Lorem ipsum dolor sit amet",
-          "Lorem ipsum dolor sit amet"
+          "2 tbsp low-sodium soy sauce",
+          "1 tbsp sesame oil",
+          "1 tsp minced garlic"
         ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Cook chicken & eggs",
+        "text": "Heat sesame oil in a wok. Cook diced chicken until golden, then scramble eggs on one side of the pan."
+      },
+      {
+        "step": 2,
+        "title": "Stir-fry vegetables & rice",
+        "text": "Add carrots, peas, and chilled cooked rice. Stir-fry on high heat for 3-5 minutes."
+      },
+      {
+        "step": 3,
+        "title": "Season and serve",
+        "text": "Pour in soy sauce and garlic. Toss well until heated through and garnish with green onions."
       }
     ],
     "isFeatured": false,
@@ -65,7 +125,7 @@
   {
     "id": "3",
     "title": "Big and Juicy Wagyu Beef Cheeseburger",
-    "description": "Delicious Wagyu beef cheeseburger served with fresh lettuce and sauce.",
+    "description": "Delicious Wagyu beef cheeseburger served with melted cheddar, fresh lettuce, tomatoes, and custom burger sauce on a toasted brioche bun.",
     "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=800&auto=format&fit=crop",
     "category": "Snack",
     "prepTime": "15 Minutes",
@@ -76,13 +136,57 @@
       "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
       "date": "15 March 2022"
     },
+    "nutrition": {
+      "calories": "560.0 kcal",
+      "totalFat": "32.0 g",
+      "protein": "34.5 g",
+      "carbohydrate": "31.0 g",
+      "cholesterol": "110.0 mg"
+    },
+    "ingredientGroups": [
+      {
+        "title": "For main dish",
+        "items": [
+          "200g ground Wagyu beef patty",
+          "1 brioche burger bun, split",
+          "1 slice sharp cheddar cheese",
+          "2 slices ripe tomato",
+          "Fresh butterhead lettuce leaves"
+        ]
+      },
+      {
+        "title": "For the sauce",
+        "items": [
+          "2 tbsp mayonnaise",
+          "1 tbsp ketchup",
+          "1/2 tsp relish or chopped pickles"
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Sear the patty",
+        "text": "Season Wagyu patty with salt and pepper. Cook in a skillet over high heat for 3-4 minutes per side."
+      },
+      {
+        "step": 2,
+        "title": "Melt cheese & toast bun",
+        "text": "Place cheddar cheese on the patty to melt. Lightly toast the brioche bun in the pan juices."
+      },
+      {
+        "step": 3,
+        "title": "Assemble burger",
+        "text": "Spread sauce on the bottom bun, add lettuce, tomato, Wagyu patty with cheese, and top bun."
+      }
+    ],
     "isFeatured": false,
     "isFavorite": true
   },
   {
     "id": "4",
     "title": "Fresh Lime Roasted Salmon with Ginger Sauce",
-    "description": "Fresh roasted salmon topped with lime zest and ginger dressing.",
+    "description": "Fresh roasted salmon fillet topped with vibrant lime zest, garlic, and served with a zesty ginger dressing.",
     "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?q=80&w=800&auto=format&fit=crop",
     "category": "Fish",
     "prepTime": "15 Minutes",
@@ -93,13 +197,56 @@
       "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
       "date": "15 March 2022"
     },
+    "nutrition": {
+      "calories": "310.4 kcal",
+      "totalFat": "18.2 g",
+      "protein": "31.0 g",
+      "carbohydrate": "4.5 g",
+      "cholesterol": "70.0 mg"
+    },
+    "ingredientGroups": [
+      {
+        "title": "For main dish",
+        "items": [
+          "2 fresh salmon fillets (approx. 180g each)",
+          "Zest and juice of 1 lime",
+          "1 tbsp olive oil",
+          "Fresh cilantro for garnish"
+        ]
+      },
+      {
+        "title": "For the sauce",
+        "items": [
+          "1 tbsp freshly grated ginger",
+          "2 tbsp soy sauce",
+          "1 tbsp honey"
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Marinate salmon",
+        "text": "Rub salmon with olive oil, lime zest, salt, pepper, and fresh lime juice."
+      },
+      {
+        "step": 2,
+        "title": "Roast in oven",
+        "text": "Roast at 200°C (400°F) for 12-15 minutes until salmon flakes easily with a fork."
+      },
+      {
+        "step": 3,
+        "title": "Drizzle ginger sauce",
+        "text": "Mix ginger, soy sauce, and honey. Drizzle over warm salmon before serving."
+      }
+    ],
     "isFeatured": false,
     "isFavorite": false
   },
   {
     "id": "5",
     "title": "Strawberry Oatmeal Pancake with Honey Syrup",
-    "description": "Healthy oatmeal pancakes with organic strawberries and sweet honey.",
+    "description": "Healthy oatmeal pancakes topped with organic sliced strawberries and sweet raw honey syrup.",
     "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=800&auto=format&fit=crop",
     "category": "Breakfast",
     "prepTime": "15 Minutes",
@@ -110,13 +257,56 @@
       "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
       "date": "15 March 2022"
     },
+    "nutrition": {
+      "calories": "285.0 kcal",
+      "totalFat": "6.5 g",
+      "protein": "10.2 g",
+      "carbohydrate": "48.0 g",
+      "cholesterol": "45.0 mg"
+    },
+    "ingredientGroups": [
+      {
+        "title": "For main dish",
+        "items": [
+          "1 cup rolled oats (blended into flour)",
+          "1/2 cup fresh strawberries, sliced",
+          "1/2 cup almond milk",
+          "1 large egg",
+          "1 tsp baking powder"
+        ]
+      },
+      {
+        "title": "For the sauce",
+        "items": [
+          "2 tbsp organic honey or maple syrup",
+          "1/2 tsp vanilla extract"
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Blend batter",
+        "text": "Blend oat flour, almond milk, egg, and baking powder until smooth."
+      },
+      {
+        "step": 2,
+        "title": "Cook pancakes",
+        "text": "Pour batter onto a lightly greased non-stick skillet. Cook 2-3 minutes per side."
+      },
+      {
+        "step": 3,
+        "title": "Top & serve",
+        "text": "Stack pancakes, top with fresh strawberry slices, and pour honey syrup on top."
+      }
+    ],
     "isFeatured": false,
     "isFavorite": false
   },
   {
     "id": "6",
     "title": "Fresh and Healthy Mixed Mayonnaise Salad",
-    "description": "Crisp mixed greens with light mayonnaise dressing and chickpeas.",
+    "description": "Crisp mixed greens with light mayonnaise dressing, chickpeas, cucumbers, and cherry tomatoes.",
     "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800&auto=format&fit=crop",
     "category": "Healthy",
     "prepTime": "15 Minutes",
@@ -127,13 +317,56 @@
       "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
       "date": "15 March 2022"
     },
+    "nutrition": {
+      "calories": "195.0 kcal",
+      "totalFat": "12.0 g",
+      "protein": "5.5 g",
+      "carbohydrate": "16.8 g",
+      "cholesterol": "12.0 mg"
+    },
+    "ingredientGroups": [
+      {
+        "title": "For main dish",
+        "items": [
+          "2 cups mixed salad greens",
+          "1/2 cup canned chickpeas, rinsed",
+          "1/2 cup cherry tomatoes, halved",
+          "1/2 cucumber, sliced"
+        ]
+      },
+      {
+        "title": "For the sauce",
+        "items": [
+          "2 tbsp light mayonnaise",
+          "1 tbsp lemon juice",
+          "Pinch of dried oregano"
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Prep vegetables",
+        "text": "Wash salad greens, cut cucumbers and tomatoes, and drain chickpeas."
+      },
+      {
+        "step": 2,
+        "title": "Mix dressing",
+        "text": "Whisk light mayonnaise, lemon juice, salt, and oregano in a small bowl."
+      },
+      {
+        "step": 3,
+        "title": "Toss and serve",
+        "text": "Combine vegetables and chickpeas in a salad bowl, toss gently with dressing."
+      }
+    ],
     "isFeatured": false,
     "isFavorite": true
   },
   {
     "id": "7",
     "title": "Chicken Meatballs with Cream Cheese",
-    "description": "Tender chicken meatballs paired with creamy cheese dip and herbs.",
+    "description": "Tender baked chicken meatballs paired with creamy cheese dip, fresh herbs, and garlic seasoning.",
     "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?q=80&w=800&auto=format&fit=crop",
     "category": "Meat",
     "prepTime": "15 Minutes",
@@ -144,6 +377,50 @@
       "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
       "date": "15 March 2022"
     },
+    "nutrition": {
+      "calories": "340.2 kcal",
+      "totalFat": "22.1 g",
+      "protein": "26.8 g",
+      "carbohydrate": "6.2 g",
+      "cholesterol": "92.0 mg"
+    },
+    "ingredientGroups": [
+      {
+        "title": "For main dish",
+        "items": [
+          "500g ground chicken breast",
+          "1/4 cup breadcrumbs",
+          "1 egg",
+          "1 tsp garlic powder",
+          "Salt and black pepper to taste"
+        ]
+      },
+      {
+        "title": "For the sauce",
+        "items": [
+          "100g cream cheese, softened",
+          "2 tbsp heavy cream or milk",
+          "1 tbsp fresh chopped parsley"
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Form meatballs",
+        "text": "Combine ground chicken, breadcrumbs, egg, and seasonings. Roll into small balls."
+      },
+      {
+        "step": 2,
+        "title": "Bake meatballs",
+        "text": "Place on a baking sheet and bake at 200°C (400°F) for 15-18 minutes."
+      },
+      {
+        "step": 3,
+        "title": "Make cheese dip",
+        "text": "Warm cream cheese with cream until smooth, stir in parsley, and serve with hot meatballs."
+      }
+    ],
     "isFeatured": false,
     "isFavorite": false
   }
