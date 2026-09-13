@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1",
+    "title": "Unlocking the Secrets of Authentic Japanese Cooking",
+    "description": "Discover the core ingredients, essential techniques, and delicate balance of flavors that define traditional Japanese cuisine.",
+    "content": "Japanese cuisine is renowned for its emphasis on seasonality, quality ingredients, and presentation. At its heart lies dashi, a flavorful broth made from kombu and bonito flakes that forms the base of many dishes...",
+    "image": "https://images.unsplash.com/photo-1580822184713-fc5400e7fe10?q=80&w=1000&auto=format&fit=crop",
+    "category": "Culinary Guides",
+    "date": "12 October 2024",
+    "author": {
+      "name": "Wade Warren",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop"
+    }
+  },
+  {
+    "id": "2",
+    "title": "The Ultimate Guide to Plating Food Like a Michelin-Star Chef",
+    "description": "Transform your everyday home-cooked meals into stunning visual masterpieces with simple plating tricks and color combinations.",
+    "content": "We eat with our eyes first. Plating food is an art form that elevates the dining experience. Focus on odd numbers, clean plate rims, and contrasting colors to make your dishes pop...",
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1000&auto=format&fit=crop",
+    "category": "Tips & Tricks",
+    "date": "28 September 2024",
+    "author": {
+      "name": "Leslie Alexander",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop"
+    }
+  },
+  {
+    "id": "3",
+    "title": "10 Quick & Healthy Breakfast Ideas for Busy Mornings",
+    "description": "Start your day right with nutritious, easy-to-prepare recipes that take less than 15 minutes to make.",
+    "content": "Mornings can be chaotic, but skipping breakfast shouldn't be an option. From overnight chia pudding to avocado toast with poached eggs, here are fast options packed with energy...",
+    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=1000&auto=format&fit=crop",
+    "category": "Healthy Living",
+    "date": "15 August 2024",
+    "author": {
+      "name": "Courtney Henry",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop"
+    }
+  },
+  {
+    "id": "4",
+    "title": "Mastering the Art of Homemade Fresh Pasta",
+    "description": "Everything you need to know about dough hydration, flour types, and rolling technique for perfect tagliatelle and ravioli.",
+    "content": "Making pasta from scratch requires only two basic ingredients: flour and eggs. However, mastering the texture demands patience and practice. Here is a step-by-step breakdown...",
+    "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?q=80&w=1000&auto=format&fit=crop",
+    "category": "Guides",
+    "date": "04 July 2024",
+    "author": {
+      "name": "John Smith",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop"
+    }
+  },
+  {
+    "id": "5",
+    "title": "Essential Kitchen Tools Every Home Cook Should Own",
+    "description": "Skip the unnecessary gadgets and invest in high-quality kitchen essentials that will make cooking faster and more enjoyable.",
+    "content": "A sharp chef's knife, a heavy cast-iron skillet, and a sturdy cutting board form the holy trinity of any productive kitchen. Learn why these tools matter most...",
+    "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=1000&auto=format&fit=crop",
+    "category": "Kitchen Gear",
+    "date": "20 June 2024",
+    "author": {
+      "name": "Wade Warren",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop"
+    }
+  },
+  {
+    "id": "6",
+    "title": "Understanding Spices: How to Layer Flavors in Cooking",
+    "description": "Learn when to bloom spices in oil, when to add fresh herbs, and how to create rich, complex flavor profiles.",
+    "content": "Spices can transform a plain dish into an extraordinary culinary experience. Toasting whole spices before grinding releases volatile oils that enhance aroma and depth...",
+    "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=1000&auto=format&fit=crop",
+    "category": "Culinary Science",
+    "date": "02 May 2024",
+    "author": {
+      "name": "Leslie Alexander",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop"
+    }
+  }
+]
