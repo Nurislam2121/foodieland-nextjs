@@ -70,19 +70,19 @@ npm / yarn / pnpm
 
 1. Clone the repository:
 
-```text
-git clone [https://github.com/YOUR_USERNAME/foodieland.git](https://github.com/Nurislam2121/foodieland.git)
+```bash
+git clone https://github.com/Nurislam2121/foodieland.git
 cd foodieland
 ```
 
 2. Install dependencies:
 
-```text
+```bash
 npm install
 ```
 
 3. Run the development server:
-```text
+```bash
 npm run dev
 ```
 4. Open http://localhost:3000 in your browser.
