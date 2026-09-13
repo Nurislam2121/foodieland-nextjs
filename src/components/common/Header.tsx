@@ -19,12 +19,10 @@ export const Header = () => {
   return (
     <header className="w-full border-b border-gray-100 bg-white">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-6 md:px-8">
-        {/* Логотип */}
         <Link href="/" className="font-serif text-2xl font-bold tracking-tight text-black">
           <Image src="/logo.svg" alt="Foodieland Logo" width={110} height={30} priority/>
         </Link>
 
-        {/* Навигация */}
         <nav className="hidden items-center gap-10 md:flex">
           {navLinks.map((link) => (
             <Link
@@ -37,7 +35,6 @@ export const Header = () => {
           ))}
         </nav>
 
-        {/* Соцсети */}
         <div className="hidden items-center gap-6 md:flex">
           <Link href="#" className="text-black hover:text-gray-600">
             <Share2 size={20} />
@@ -50,7 +47,6 @@ export const Header = () => {
           </Link>
         </div>
 
-        {/* Мобильная кнопка */}
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           className="p-2 text-black md:hidden"
@@ -60,7 +56,6 @@ export const Header = () => {
         </button>
       </div>
 
-      {/* Мобильное Меню */}
       {isMenuOpen && (
         <div className="border-b border-gray-100 bg-white px-6 py-6 md:hidden">
           <nav className="flex flex-col gap-4">

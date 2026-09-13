@@ -1,17 +1,18 @@
 'use client';
 
-import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Clock, Utensils, Heart } from 'lucide-react';
 import { Recipe } from '@/types/recipe';
+import { useFavorites } from '@/context/FavoritesContext';
 
 interface RecipeCardProps {
   recipe: Recipe;
 }
 
 export const RecipeCard = ({ recipe }: RecipeCardProps) => {
-  const [isLiked, setIsLiked] = useState<boolean>(false);
+  const { isFavorite, toggleFavorite } = useFavorites();
+  const liked = isFavorite(String(recipe.id));
 
   return (
     <div className="group relative flex flex-col justify-between rounded-[30px] bg-[#E7FAFE] p-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
@@ -29,7 +30,7 @@ export const RecipeCard = ({ recipe }: RecipeCardProps) => {
             onClick={(e) => {
               e.preventDefault();
               e.stopPropagation();
-              setIsLiked(!isLiked);
+              toggleFavorite(String(recipe.id));
             }}
             aria-label="Add to favorites"
             className="absolute right-4 top-4 z-20 flex h-11 w-11 cursor-pointer items-center justify-center rounded-full bg-white shadow-md transition-transform active:scale-90"
@@ -37,7 +38,7 @@ export const RecipeCard = ({ recipe }: RecipeCardProps) => {
             <Heart
               size={20}
               className={
-                isLiked
+                liked
                   ? 'fill-red-500 text-red-500'
                   : 'text-gray-400 hover:text-gray-600'
               }

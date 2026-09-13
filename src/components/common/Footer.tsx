@@ -6,7 +6,6 @@ export const Footer = () => {
   return (
     <footer className="w-full bg-white pb-12 pt-16">
       <div className="mx-auto max-w-7xl px-4 md:px-8">
-        {/* ЛОго + навигация */}
         <div className="flex flex-col items-start justify-between gap-8 border-b border-gray-200/60 pb-12 md:flex-row md:items-center">
           <div>
             <Link href="/" className="font-serif text-2xl font-bold tracking-tight text-black">
@@ -27,13 +26,12 @@ export const Footer = () => {
             <Link href="/contact" className="text-base font-medium text-black hover:text-gray-600">
               Contact
             </Link>
-            <Link href="/about" className="text-base font-medium text-black hover:text-gray-600">
-              About us
+            <Link href="/favorites" className="text-base font-medium text-black hover:text-gray-600">
+              Favorites
             </Link>
           </nav>
         </div>
 
-        {/* Копирайт + Соцсети */}
         <div className="mt-8 flex flex-col items-center justify-between gap-4 text-center md:flex-row md:text-left">
           <p className="text-sm text-gray-500">
             © {new Date().getFullYear()} Flowbase. Powered by{' '}
